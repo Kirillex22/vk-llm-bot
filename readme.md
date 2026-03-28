@@ -24,13 +24,15 @@ pip install -r requirements/dev.txt
 
 3. Конфигурация
 Отредактируйте файл config.yaml, указав ключи доступа и список целевых пользователей:
-
-VK_API_TOKEN: "your_vk_token"USER_VK_ID: "your_vk_id"GIGACHAT_API_TOKEN: "your_gigachat_token"
+```yaml
+VK_API_TOKEN: "your_vk_token"
+USER_VK_ID: "your_vk_id"
+GIGACHAT_API_TOKEN: "your_gigachat_token"
 users:
   "11111": "Егор"
   "53445": "Костя"
   "11634520": "Глаша"
-
+```
 Примечание: Токен VK API можно получить через сервисы типа vkhost.github.io.
 
 ------------------------------
